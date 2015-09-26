@@ -2,7 +2,7 @@
 learntesting
 ===============================
 
-i'm using it to understanding software testing
+i'm using this repo for exercising DevOps kind of thing ( CI, CD etc), using opensource license to have free hosted solution :p
 
 
 Quickstart
