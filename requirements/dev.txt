@@ -5,6 +5,7 @@
 pytest>=2.6.3
 webtest
 factory-boy==2.5.1
+mock
 
 # Management script
 Flask-Script
