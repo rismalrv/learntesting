@@ -1,0 +1,23 @@
+machine:
+  python:
+    version: 2.7.3
+  services:
+    - docker
+
+  timezone:
+    Asia/Jakarta # Set the timezone
+
+  environment:
+    LEARNTESTING_SECRET: 'dont worry be happy'
+
+
+dependencies:
+  override:
+    - pip install -U setuptools pip
+    - pip install -r requirements/prod.txt
+    - pip install -r requirements/dev.txt
+
+test:
+  override:
+    - python manage.py test
+    - py.test
