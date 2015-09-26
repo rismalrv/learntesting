@@ -7,5 +7,7 @@ webtest
 factory-boy==2.5.1
 mock
 testtools
+fixtures
+
 # Management script
 Flask-Script
