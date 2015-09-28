@@ -1,3 +1,5 @@
+.. image:: https://travis-ci.org/rismalrv/learntesting.svg?branch=master
+       :target: https://travis-ci.org/rismalrv/learntesting
 ===============================
 learntesting
 ===============================
